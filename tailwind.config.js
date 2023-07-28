@@ -26,7 +26,7 @@ module.exports = {
       },
       backgroundImage: {
         'pattern': "url('/pattern.png')",
-        'hero-bg': "url('/hero-bg.png')"
+        'hero-bg': "url('/mysamui/msi_speedboat_01_bg.png')"
       }
     },
   },

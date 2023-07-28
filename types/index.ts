@@ -7,3 +7,9 @@ export interface CustomeButtonProps {
     btnType: "button" | "submit";
 
 }
+
+export interface HeroProps {
+    title: string;
+    subTitle: string;
+    // image: string;
+}

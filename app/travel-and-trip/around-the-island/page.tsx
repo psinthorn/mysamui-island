@@ -1,9 +1,7 @@
-import React from 'react'
-
-const AroundTheIsland = () => {
+const AroundTheIslandPage = () => {
   return (
     <div> Around The Island </div>
   )
 }
 
-export default AroundTheIsland
+export default AroundTheIslandPage

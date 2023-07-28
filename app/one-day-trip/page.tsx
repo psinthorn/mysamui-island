@@ -1,8 +1,8 @@
-import React from 'react'
-
 const OneDayTrip = () => {
   return (
-    <div>OneDayTrip</div>
+    <div>
+      around the island
+    </div>
   )
 }
 

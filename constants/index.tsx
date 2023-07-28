@@ -72,6 +72,15 @@ export const manufacturers = [
   
   export const footerLinks = [
     {
+      title: "Contact",
+      links: [
+        { title: "+66(0) 6 1605 6999", url: "/" },
+        { title: "+66(0) 8 7665 7555", url: "/" },
+        { title: "+66(0) 77 601 228", url: "/" },
+        { title: "info@mysamuiisland.com", url: "/" },
+      ],
+    },
+    {
       title: "About",
       links: [
         { title: "How to Book", url: "/" },
@@ -86,15 +95,16 @@ export const manufacturers = [
         { title: "Events", url: "/" },
         { title: "Blog", url: "/" },
         { title: "Trip Calendar", url: "/" },
-        { title: "Contact", url: "/" },
+        { title: "Contact", url: "/contact" },
       ],
     },
     {
       title: "Socials",
       links: [
-        { title: "Tiktok", url: "/" },
+        { title: "Trip Advisor", url: "/" },
+        // { title: "Tiktok", url: "/" },
         { title: "Instagram", url: "/" },
-        { title: "Twitter", url: "/" },
+        // { title: "Twitter", url: "/" },
         { title: "Facebook", url: "/" },
       ],
     },

@@ -44,6 +44,14 @@ const Footer = () => (
           Terms & Condition
         </Link>
       </div>
+      <div className="footer__copyrights-link">
+        <div className="text-gray-500">
+          <span className="p-1 text-gray-700">Tech Stack:</span> Nodejs Express React Tailwindcss MongoDB <span className="p-2 text-gray-500 text-xs"><Link href="https://wwws.f2.co.th">by F2</Link></span>
+        </div>
+        <Link href="/" className="text-gray-500">
+          version 0.0.1
+        </Link>
+      </div>
     </div>
   </footer>
 );
