@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
+        satoshi: ['Satoshi', 'sans-serif'],
       },
       colors: {
         "black-100": "#2B2C35",
@@ -26,7 +27,7 @@ module.exports = {
       },
       backgroundImage: {
         'pattern': "url('/pattern.png')",
-        'hero-bg': "url('/mysamui/msi_speedboat_01_bg.png')"
+        'hero-bg': "url('/mysamui/mysamui-speedboat-with-background.jpg')"
       }
     },
   },

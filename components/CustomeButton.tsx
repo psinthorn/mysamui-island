@@ -7,7 +7,7 @@ const CustomeButton = ({ title, containerStyles, handleClick, btnType}: CustomeB
     <button
         disabled={false}
         type={btnType}
-        className={`custom-btn m-1 ${containerStyles}`}
+        className={`text-gray-800 custom-btn m-1 hover:text-blue-800 ${containerStyles}`}
         onClick={handleClick}
     >
         <span className={`flex-1`}>

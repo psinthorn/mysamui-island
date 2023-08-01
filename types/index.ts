@@ -13,3 +13,14 @@ export interface HeroProps {
     subTitle: string;
     // image: string;
 }
+
+export interface BookingProps {
+    firstName: string;
+    lastName: string;
+    hotelName: string;
+    roomNo: string;
+    email: string;
+    whatsapp: string;
+    phone: string;
+    remarkNote: string;
+}

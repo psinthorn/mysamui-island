@@ -69,6 +69,22 @@ export const manufacturers = [
       value: "Electricity",
     },
   ];
+
+  export const navLinks = [
+    {
+      title: "Home",
+      links: "/"
+    },
+    {
+      title: "About",
+      links: "/about"
+    },
+    {
+      title: "Contact",
+      links: "/contact"
+    },
+
+]
   
   export const footerLinks = [
     {
@@ -83,10 +99,12 @@ export const manufacturers = [
     {
       title: "About",
       links: [
-        { title: "How to Book", url: "/" },
-        { title: "Featured", url: "/" },
-        { title: "Agent / Partnership", url: "/" },
-        { title: "Bussiness Relation", url: "/" },
+        { title: "About", url: "/about" },
+        { title: "How to Book", url: "/how-to-book" },
+        { title: "How to Pay", url: "/how-to-book" },
+        // { title: "Featured", url: "/" },
+        // { title: "Agent / Partnership", url: "/" },
+        // { title: "Bussiness Relation", url: "/" },
       ],
     },
     {

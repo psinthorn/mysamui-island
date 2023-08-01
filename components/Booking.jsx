@@ -1,6 +1,8 @@
-const FormBooking = ({ type,post ,setPost,submitting, handleSubmit, }) => {
+
+
+const Booking = ({ type,post ,setPost,submitting, handleSubmit, }) => {
     return (
-      <section className='w-full max-w-full flex-center flex-col'>
+      <section className='w-full max-w-full flex-center flex-col mt-10'>
         <h1 className="head_text text-left"> 
           <span className="blue_gradient">{type} Post</span> 
         </h1>
@@ -12,7 +14,7 @@ const FormBooking = ({ type,post ,setPost,submitting, handleSubmit, }) => {
         >
           <label>
             <span className="font-satoshi font-semibold text-base text-gray-700">
-              Your AI Prompt
+              Your Name
             </span>
             <textarea
               value={post.prompt}
@@ -25,9 +27,9 @@ const FormBooking = ({ type,post ,setPost,submitting, handleSubmit, }) => {
           </label>
   
           <label>
-            <span className="font-satoshi font-semibold text-base text-gray-700">
+            {/* <span className="font-satoshi font-semibold text-base text-gray-700">
               Tag {' '} <span className="font-normal">(#product #idae #marketing)</span>
-            </span>
+            </span> */}
             <input
               value={post.tag}
               placeholder='#tag'
@@ -55,4 +57,4 @@ const FormBooking = ({ type,post ,setPost,submitting, handleSubmit, }) => {
     )
 }
 
-export default FormBooking;
+export default Booking;

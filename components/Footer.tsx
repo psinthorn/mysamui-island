@@ -5,11 +5,10 @@ import { footerLinks } from ".";
 const Footer = () => (
   <footer className='flex flex-col text-black-100  mt-5 border-t border-gray-100'>
     <div className='flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10'>
-      <div className='flex flex-col justify-start items-start gap-6'>
-        <Image src='/mysamui/mysamui-logo-black.png' alt='logo' width={118} height={18} className='object-contain' />
+      <div className='flex flex-col items-center justify-center sm:px-16 px-6 py-4'>
+        <Image src='/mysamui/mysamui-logo-blue-notext.png' alt='logo' width={118} height={18} className='object-contain' />
         <p className='text-base text-gray-700'>
-        My Samui Island Tour 2023 <br />
-          All Rights Reserved &copy;
+        Koh Samui Speedboat Service &copy;
         </p>
       </div>
 

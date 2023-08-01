@@ -1,4 +1,5 @@
-import { Hero } from '@/components'
+import Hero  from '@/components/Hero'
+import Stats from '@/components/Stats'
 import Image from 'next/image'
 import Package from './../components/Package'
 
@@ -8,6 +9,7 @@ export default function Home() {
   return (
       <div>
         <Hero title={title} subTitle={subTitle} />
+        <Stats />
         <div>
         </div>
       </div>   

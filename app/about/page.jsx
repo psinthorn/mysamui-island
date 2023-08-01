@@ -1,4 +1,4 @@
-import { Hero } from '@/components'
+import Hero from '@/components/Hero'
 
 const About = () => {
   const title = "We're speedboat service in Koh Samui";
