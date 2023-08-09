@@ -1,47 +1,4 @@
-export const manufacturers = [
-    "Acura",
-    "Alfa Romeo",
-    "Aston Martin",
-    "Audi",
-    "Bentley",
-    "BMW",
-    "Buick",
-    "Cadillac",
-    "Chevrolet",
-    "Chrysler",
-    "Citroen",
-    "Dodge",
-    "Ferrari",
-    "Fiat",
-    "Ford",
-    "GMC",
-    "Honda",
-    "Hyundai",
-    "Infiniti",
-    "Jaguar",
-    "Jeep",
-    "Kia",
-    "Lamborghini",
-    "Land Rover",
-    "Lexus",
-    "Lincoln",
-    "Maserati",
-    "Mazda",
-    "McLaren",
-    "Mercedes-Benz",
-    "MINI",
-    "Mitsubishi",
-    "Nissan",
-    "Porsche",
-    "Ram",
-    "Rolls-Royce",
-    "Subaru",
-    "Tesla",
-    "Toyota",
-    "Volkswagen",
-    "Volvo",
-  ];
-  
+
   export const yearsOfProduction = [
     { title: "Year", value: "" },
     { title: "2015", value: "2015" },
@@ -83,6 +40,30 @@ export const manufacturers = [
       title: "Contact",
       links: "/contact"
     },
+];
+
+export const socialsInfo = [
+  {
+    name: "Facebook",
+    link: "facebook.com",
+    qrcode: "facebook qrcode",
+    icon: "facebook icon",
+    public: true
+  },
+  {
+    name: "Tripadvisor",
+    link: "tripadvisor.com",
+    qrcode: "tripadvisor qrcode",
+    icon: "tripadvisor icon",
+    public: true
+  },
+  {
+    name: "Instagram",
+    link: "instagram.com",
+    qrcode: "instagram qrcode",
+    icon: "instagram icon",
+    public: true
+  },
 
 ]
   
@@ -92,7 +73,7 @@ export const manufacturers = [
       links: [
         { title: "+66(0) 6 1605 6999", url: "/" },
         { title: "+66(0) 8 7665 7555", url: "/" },
-        { title: "+66(0) 77 601 228", url: "/" },
+        // { title: "+66(0) 77 601 228", url: "/" },
         { title: "info@mysamuiisland.com", url: "/" },
       ],
     },
@@ -101,7 +82,7 @@ export const manufacturers = [
       links: [
         { title: "About", url: "/about" },
         { title: "How to Book", url: "/how-to-book" },
-        { title: "How to Pay", url: "/how-to-book" },
+        // { title: "How to Pay", url: "/how-to-book" },
         // { title: "Featured", url: "/" },
         // { title: "Agent / Partnership", url: "/" },
         // { title: "Bussiness Relation", url: "/" },
@@ -119,11 +100,9 @@ export const manufacturers = [
     {
       title: "Socials",
       links: [
-        { title: "Trip Advisor", url: "/" },
-        // { title: "Tiktok", url: "/" },
-        { title: "Instagram", url: "/" },
-        // { title: "Twitter", url: "/" },
-        { title: "Facebook", url: "/" },
+        { title: "Testimonials", url: "/social-and-testimonials" },
+        { title: "Trip Advisor", url: "/social-and-testimonials" },
+        { title: "Facebook", url: "/social-and-testimonials" },
       ],
     },
   ];

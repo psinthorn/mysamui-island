@@ -42,9 +42,7 @@ const Hero = ({title, subTitle}: HeroProps) => {
                         {/* <Image src="/mysamui/msi_speedboat_01_bg.png" alt="speedboat bg"  fill className='object-contain'/> */}
                     </div>
                     <div className='hero__image-overlay hidden md:block lg:block xl:block'/>          
-                </div>  
-                    
-            
+                </div>            
             </div>
         )
 }

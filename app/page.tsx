@@ -1,7 +1,12 @@
-import Hero  from '@/components/Hero'
-import Stats from '@/components/Stats'
-import Image from 'next/image'
+import Hero  from '@/components/Hero';
+import Stats from '@/components/Stats';
+import Image from 'next/image';
 import Package from './../components/Package'
+import TourCard from './../components/TourCard';
+import Contact from './../components/Contact';
+import Testimonial from './../components/Testimonial';
+import Social from '@/components/Social';
+
 
 export default function Home() {
   const title = "Koh Samui, Island trip, book a ticket for speed boat Quick & Easily.";
@@ -9,9 +14,11 @@ export default function Home() {
   return (
       <div>
         <Hero title={title} subTitle={subTitle} />
-        <Stats />
-        <div>
-        </div>
+          <Stats />
+          <TourCard cardTitle="Tour Package" />
+          <Contact />
+          <Social />
+          <Testimonial /> 
       </div>   
   )
 }
