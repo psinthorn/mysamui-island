@@ -20,21 +20,21 @@ const Hero = ({title, subTitle}: HeroProps) => {
                     <h1 className='hero__title'>{heroTitle}</h1>
                     <p className='hero__subtitle'>{heroSubTitle}</p>
                     
-                <div className='flex items-center'>
-                    <CustomButton 
-                        title="Island Trip"
-                        containerStyles="bg-primary-blue rounded-full text-white mt-10"
-                        handleClick={handleScroll}
-                        btnType='button'
-                    />
-                    <CustomButton 
-                        title="Fullmoon Party"
-                        containerStyles="bg-primary-blue rounded-full text-white mt-10"
-                        handleClick={handleScroll}
-                        btnType='button'
-                    />   
-                        
-                </div>
+                    <div className='flex text-center items-center md:text-left'>
+                        <CustomButton 
+                            title="Island Trip"
+                            containerStyles="bg-primary-blue rounded-full text-white mt-10"
+                            handleClick={handleScroll}
+                            btnType='button'
+                        />
+                        <CustomButton 
+                            title="Fullmoon Party"
+                            containerStyles="bg-primary-blue rounded-full text-white mt-10"
+                            handleClick={handleScroll}
+                            btnType='button'
+                        />   
+                            
+                    </div>
                 </div>
 
                 <div className=' hero__image-container hidden md:block lg:block xl:block'>

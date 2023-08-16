@@ -6,6 +6,7 @@ import TourCard from './../components/TourCard';
 import Contact from './../components/Contact';
 import Testimonial from './../components/Testimonial';
 import Social from '@/components/Social';
+import "./style.css";
 
 
 export default function Home() {
@@ -14,10 +15,10 @@ export default function Home() {
   return (
       <div>
         <Hero title={title} subTitle={subTitle} />
-          <Stats />
           <TourCard cardTitle="Tour Package" />
           <Contact />
           <Social />
+          <Stats />
           <Testimonial /> 
       </div>   
   )

@@ -35,7 +35,7 @@ const Footer = () => (
     <div className='flex justify-between items-center flex-wrap text-gray-500 mt-10 border-t border-gray-100 sm:px-16 px-6 py-10'>
       <p>@2023 <span>My Samui Island Tour. All rights reserved</span></p>
 
-      <div className="footer__copyrights-link">
+      {/* <div className="footer__copyrights-link">
         <Link href="/" className="text-gray-500">
           Privacy & Policy
         </Link>
@@ -44,13 +44,18 @@ const Footer = () => (
         </Link>
       </div>
       <div className="footer__copyrights-link">
+        <Link href="/" className="text-gray-500">
+          Terms & Condition
+        </Link>
+      </div> */}
+      {/* <div className="footer__copyrights-link">
         <div className="text-gray-500">
           <span className="p-1 text-gray-700">Tech Stack:</span> Nodejs Express React Tailwindcss MongoDB <span className="p-2 text-gray-500 text-xs"><Link href="https://wwws.f2.co.th">by F2</Link></span>
         </div>
         <Link href="/" className="text-gray-500">
           version 0.0.1
         </Link>
-      </div>
+      </div> */}
     </div>
   </footer>
 );

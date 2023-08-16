@@ -42,6 +42,33 @@
     },
 ];
 
+export const packageInfo = [
+  {
+    number: "01",
+    title: "Angthong Nation Marine Park",
+    info: "nation marine park is the best excursion for you nation marine park is the best excursion for you nation marine park is the best excursion for you nation marine park is the best excursion for you nation marine park is the best excursion for you nation marine park is the best excursion for you",
+    rate: "1650",
+    discount: "1650",
+    public: "true"
+  },
+  {
+    number: "02",
+    title: "Koh Tao Koh Nangyuan",
+    info: "nation marine park is the best excursion for you nation marine park is the best excursion for you nation marine park is the best excursion for you nation marine park is the best excursion for you nation marine park is the best excursion for you nation marine park is the best excursion for you",
+    rate: "1650",
+    discount: "1650",
+    public: "true"
+  },
+  {
+    number: "03",
+    title: "Fullmoon Party",
+    info: "nation marine park is the best excursion for you nation marine park is the best excursion for you nation marine park is the best excursion for you nation marine park is the best excursion for you nation marine park is the best excursion for you nation marine park is the best excursion for you",
+    rate: "1650",
+    discount: "1650",
+    public: "true"
+  },
+];
+
 export const socialsInfo = [
   {
     name: "Facebook",

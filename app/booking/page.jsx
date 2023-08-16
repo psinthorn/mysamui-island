@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import FormBooking from '@/components/FormBooking';
 import HowToPay from "../../components/HowToPay";
-import "./../booking.css";
+
 
 
 const Booking = () => {
