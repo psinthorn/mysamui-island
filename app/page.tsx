@@ -3,6 +3,7 @@ import Stats from '@/components/Stats';
 import Image from 'next/image';
 import Package from './../components/Package'
 import TourCard from './../components/TourCard';
+import TourList from './../components/TourList';
 import Contact from './../components/Contact';
 import Testimonial from './../components/Testimonial';
 import Social from '@/components/Social';
@@ -15,10 +16,13 @@ export default function Home() {
   return (
       <div>
         <Hero title={title} subTitle={subTitle} />
-          <TourCard cardTitle="Tour Package" />
-          <Contact />
-          <Social />
+          {/* <TourCard cardTitle="Tour Package" /> */}
           <Stats />
+         
+          <TourList cardTitle="Tour Package" />
+          {/* <Contact /> */}
+          <Social />
+          
           <Testimonial /> 
       </div>   
   )
