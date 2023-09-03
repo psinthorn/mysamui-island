@@ -41,16 +41,15 @@ const Navbar = () => {
           </div>
           </div>
 
-          
-          <div>
+          {/* Sign In/ Sign Out  */}
+          {/* <div>
             <FontAwesomeIcon icon={faCircleUser} className="w-10 h-10 " />
             <Link 
               href="/profile"
               className=' '
             >
             </Link>
-           
-          </div>
+          </div> */}
         </nav>
     </header>
   )
